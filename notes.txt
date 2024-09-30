@@ -1,0 +1,23 @@
+Recursion
+    "Recursion is a method of solving a computational problem where the soltution depends on solutions of smaller instances of the same problem."
+
+Note:-
+
+Recusion must have
+
+    i) Base Case
+    ii) Approach
+    iii) inner calls f(n-1)
+
+Find the factorial of 5.
+
+    Top to down - Towards Base Case
+
+                f(5) = 5 x f(5-1)   -> 120
+                     = 4 x f(4-1)   -> 24
+                     = 3 x f(3-1)   -> 6
+                     = 2 x f(2-1)   -> 2
+                     = 1 x f(0)      return 1
+                            |> Base Case
+
+____________________________________________________________________________________
